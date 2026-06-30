@@ -1,0 +1,1 @@
+-- Migration applied in Supabase. Opening positions bootstrap completed.
