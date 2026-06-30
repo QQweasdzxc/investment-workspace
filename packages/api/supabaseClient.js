@@ -1,13 +1,17 @@
 (function(){
   const cfg = window.IW_CONFIG;
-  const headers = {
-    apikey: cfg.supabaseAnonKey,
-    Authorization: `Bearer ${cfg.supabaseAnonKey}`,
-    "Content-Type": "application/json"
-  };
+  function makeHeaders(){
+    const session = window.IW_AUTH?.getSession?.();
+    const token = session?.access_token || cfg.supabaseAnonKey;
+    return {
+      apikey: cfg.supabaseAnonKey,
+      Authorization: `Bearer ${token}`,
+      "Content-Type": "application/json"
+    };
+  }
   async function request(path){
     const url = `${cfg.supabaseUrl}/rest/v1/${path}`;
-    const res = await fetch(url, { headers });
+    const res = await fetch(url, { headers: makeHeaders() });
     if(!res.ok){
       const txt = await res.text().catch(()=>"");
       throw new Error(`Supabase ${res.status}: ${txt || res.statusText}`);

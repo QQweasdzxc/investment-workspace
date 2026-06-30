@@ -48,3 +48,18 @@ body{font-size:14px}
   .tabs button{padding:7px 12px;font-size:12px}
   .metric-grid{grid-template-columns:repeat(2,1fr)}
 }
+
+/* 9.1.3 Decision Design Patch */
+body{font-size:12.5px}.brand h1{font-size:18px}.brand p{font-size:12px}.badge{font-size:12px;padding:6px 10px}.kpis{gap:8px}.kpi{padding:10px 11px;border-radius:15px}.kpi small{font-size:10.5px}.kpi b{font-size:18px}.tabs{gap:5px;padding:6px}.tabs button{font-size:11.5px;padding:6px 10px}.hero{padding:15px 16px;border-radius:18px}.hero h2{font-size:19px}.hero p{font-size:12.5px;line-height:1.55}.hero.war-order{background:linear-gradient(135deg,rgba(255,247,237,.96),rgba(255,255,255,.86));border-color:#fed7aa}.hero.strategist{background:linear-gradient(135deg,rgba(254,243,199,.82),rgba(255,255,255,.88))}.hero.fate{background:linear-gradient(135deg,rgba(245,232,255,.82),rgba(255,255,255,.88))}.hero.intel{background:linear-gradient(135deg,rgba(219,234,254,.82),rgba(255,255,255,.88))}.hero.research{background:linear-gradient(135deg,rgba(220,252,231,.82),rgba(255,255,255,.88))}.hero.system{background:linear-gradient(135deg,rgba(241,245,249,.92),rgba(255,255,255,.88))}.section-title{font-size:14px;margin:14px 4px 8px}.asset-grid{gap:8px}.asset-card{padding:10px 11px;border-radius:16px}.asset-head strong{font-size:16px}.asset-head span{font-size:11.5px}.asset-price{min-width:58px}.asset-price small{font-size:10px}.asset-price b{font-size:15px}.asset-price em{font-size:11px}.metric-grid{gap:6px;margin:8px 0}.metric-grid div{padding:6px 7px}.metric-grid small{font-size:10px}.metric-grid b{font-size:13px}.asset-foot.pnl-band{border-top:0;border-radius:12px;padding:8px 9px;margin-top:6px}.asset-foot b{font-size:13px}.asset-card.gain .pnl-band{background:#fff1f2;color:#d92d20}.asset-card.gain .pnl-band b{color:#d92d20}.asset-card.loss .pnl-band{background:#f0fdf4;color:#16a34a}.asset-card.loss .pnl-band b{color:#16a34a}@media(max-width:420px){body{font-size:12px}.shell{padding:8px}.brand h1{font-size:17px}.kpi b{font-size:17px}.tabs button{font-size:11px;padding:6px 9px}.asset-card{padding:9px}}
+
+/* 9.2 Auth Foundation */
+.auth-wrap{margin:4px 0 10px}
+.auth-card{display:flex;justify-content:space-between;gap:10px;align-items:center;background:rgba(255,255,255,.72);border:1px solid var(--line);border-radius:16px;padding:10px 12px;box-shadow:var(--shadow)}
+.auth-card small{display:block;color:var(--muted);font-weight:900;font-size:10.5px}
+.auth-card b{display:block;font-size:13px;margin:2px 0}
+.auth-card span{display:block;color:var(--muted);font-weight:700;font-size:11px;word-break:break-all}
+.auth-card button{border:0;border-radius:999px;padding:7px 11px;font-weight:900;background:var(--blue);color:white;white-space:nowrap}
+.auth-card.signed{background:linear-gradient(135deg,rgba(240,253,244,.88),rgba(255,255,255,.88));border-color:#bbf7d0}
+.auth-actions{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end}
+.auth-actions button:last-child{background:#64748b}
+@media(max-width:620px){.auth-card{align-items:flex-start;flex-direction:column}.auth-actions{justify-content:flex-start}.auth-card button{font-size:11px}}

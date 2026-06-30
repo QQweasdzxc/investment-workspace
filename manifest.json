@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Investment Workspace",
-  "version": "9.1.2",
-  "description": "Investment Workspace UI compact patch: iPhone tile density, full workspace tabs, price placement.",
+  "version": "9.2.0",
+  "description": "Investment Workspace 9.2 Auth Foundation: Google identity mapping and SaaS-ready user separation.",
   "action": {
     "default_title": "Investment Workspace",
     "default_popup": "apps/chrome/popup.html"

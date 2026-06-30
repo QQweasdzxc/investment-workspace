@@ -1,5 +1,5 @@
 window.IW_CONFIG = {
-  version: "9.1.2",
+  version: "9.2.0",
   productName: "Investment Workspace",
   subtitle: "Powered by Decision Intelligence",
   workspaceId: "001",
