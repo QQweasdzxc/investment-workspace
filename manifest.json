@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Investment Workspace",
+  "version": "9.1.0",
+  "description": "Investment Workspace powered by Decision Intelligence. Cloud Bootstrap via Supabase.",
+  "action": {
+    "default_title": "Investment Workspace",
+    "default_popup": "apps/chrome/popup.html"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://lenpbbhwxyyfwgvjcozf.supabase.co/*"
+  ]
+}
