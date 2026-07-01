@@ -1,5 +1,1 @@
-# Investment Workspace
-
-Powered by Decision Intelligence.
-
-Release 9.1.2 Cloud Bootstrap.
+# Investment Workspace Sprint 1\n\n本次交付：建立營寨 Onboarding、諸葛精靈、五步驟首次使用流程、RWD Web/Chrome/Mobile。\n\n## GitHub 更新\n解壓縮 ZIP → Add file → Upload files → 上傳資料夾內所有內容 → Commit message: Sprint 1 Onboarding。\n\n## Chrome 更新\nChrome 擴充功能 → 開發人員模式 → 載入未封裝項目 → 選擇解壓縮後整個資料夾。\n

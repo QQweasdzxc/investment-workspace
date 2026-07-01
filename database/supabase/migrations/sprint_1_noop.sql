@@ -1,0 +1,1 @@
+-- Sprint 1 does not require database migration.\n-- Sprint 2 will connect onboarding data to Supabase Auth UUID and user profiles.\n

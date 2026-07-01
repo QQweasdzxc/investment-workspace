@@ -1,0 +1,1 @@
+# Sprint 1：建立營寨\n\n目標：讓第一次使用者透過諸葛精靈，在 3 分鐘內完成投資戰情室初始建立。\n\n下一個 Sprint：Google Login + UUID + Supabase Profile Binding。\n

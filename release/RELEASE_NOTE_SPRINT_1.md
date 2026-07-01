@@ -1,0 +1,1 @@
+# Release Note - Sprint 1\n\n新增建立營寨 Onboarding、諸葛精靈、五步驟首次使用流程、Chrome popup 支援。\n\n尚未包含：Google Login 實際登入、UUID 寫入 Supabase、軍帳首頁。\n
