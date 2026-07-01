@@ -1,1 +1,1 @@
-# Investment Workspace Sprint 1\n\n本次交付：建立營寨 Onboarding、諸葛精靈、五步驟首次使用流程、RWD Web/Chrome/Mobile。\n\n## GitHub 更新\n解壓縮 ZIP → Add file → Upload files → 上傳資料夾內所有內容 → Commit message: Sprint 1 Onboarding。\n\n## Chrome 更新\nChrome 擴充功能 → 開發人員模式 → 載入未封裝項目 → 選擇解壓縮後整個資料夾。\n
+# Investment Workspace Sprint 2 M1\n\n交付：Google Login 入口、Supabase Auth Session、UUID 身份確認、認領營寨 UI、Chrome Popup 固定 400x600。\n\n## GitHub 更新\n解壓縮 ZIP → Add file → Upload files → 上傳資料夾內所有內容 → Commit message: Sprint 2 M1 Identity。\n\n## 測試\n開啟 GitHub Pages → 使用 Google 登入 → 若看到認領營寨，按立即認領營寨。\n

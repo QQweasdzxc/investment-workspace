@@ -1,16 +1,18 @@
 {
   "manifest_version": 3,
   "name": "Investment Workspace",
-  "version": "10.0.0",
-  "description": "Sprint 1: Zhuge onboarding and camp setup.",
+  "version": "10.2.1",
+  "description": "Sprint 2 M1: Google Identity, session, legacy claim entry.",
   "action": {
     "default_title": "Investment Workspace",
     "default_popup": "apps/chrome/popup.html"
   },
   "permissions": [
-    "storage"
+    "storage",
+    "tabs"
   ],
   "host_permissions": [
-    "https://lenpbbhwxyyfwgvjcozf.supabase.co/*"
+    "https://lenpbbhwxyyfwgvjcozf.supabase.co/*",
+    "https://qqweasdzxc.github.io/*"
   ]
 }

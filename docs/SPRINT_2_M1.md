@@ -1,0 +1,1 @@
+# Sprint 2 M1：Authentication\n\n目標：完成 Google Login、Session、UUID 確認與認領營寨入口。\n

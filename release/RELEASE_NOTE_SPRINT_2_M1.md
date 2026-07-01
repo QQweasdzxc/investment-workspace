@@ -1,0 +1,1 @@
+# Release Note - Sprint 2 M1\n\n新增 Google Login page、Session restore、Legacy Claim UI、Workspace summary check、Fixed Chrome popup size。\n

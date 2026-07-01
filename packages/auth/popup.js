@@ -1,0 +1,1 @@
+document.getElementById("openWeb").addEventListener("click",()=>{chrome.tabs.create({url:"https://qqweasdzxc.github.io/investment-workspace/"})});
